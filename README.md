@@ -7,6 +7,7 @@
 - [Configuration côté client](#configuration-côté-client-machine-locale)
 
 > 📝 Vous pouvez également lire l'article détaillé sur mon blog (article en anglais 🇬🇧) :
+
 [Tunnel SSH Connections Over SSL Using Stunnel](https://www.damian-freelance.com/blog/tunnelling-ssh-over-ssl-on-debian)
 
 ## Introduction
