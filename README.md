@@ -261,7 +261,7 @@ Explication des options :
 - `-i ...` : Spécifie la clé privée SSH à utiliser.
 - `root@localhost` : Utilisateur et hôte (le tunnel écoute sur localhost).
 
-Important : Ces 2 terminals doivent rester ouvert tant que vous utilisez le proxy.
+Important : Ces deux terminals doivent rester ouvert tant que vous utilisez le proxy.
 
 - Étape 3 : Configurer votre navigateur (Firefox par exemple).
 
