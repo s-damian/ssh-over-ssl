@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [Configuration côté serveur](#configuration-côté-serveur-vps-distant)
 - [Configuration côté client](#configuration-côté-client-machine-locale)
-- [Proxy SOCKS](#proxy-socks)
+- [Proxy SOCKS](#proxy-socks-tunnel-ssh-dynamique)
 - [Article in English 🇬🇧](#article-in-english-)
 
 ## Introduction
@@ -236,6 +236,8 @@ ssh -p 2200 -i /YOUR_PATH/.ssh/id_rsa_YOUR_FILE root@localhost
 
 
 ## Proxy SOCKS (tunnel SSH dynamique)
+
+Cette partie est réservée pour les utilisateurs qui souhaitent utiliser Proxy SOCKS.
 
 > Utiliser SSH pour créer un proxy SOCKS5 via le tunnel SSL
 
