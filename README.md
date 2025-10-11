@@ -56,7 +56,7 @@ Ce tutoriel couvre l'installation et la configuration complète de stunnel4, cô
 
 Notes :
 - Le serveur distant sera aussi surnommé `VPS`.
-- Dans ce tutoriel, nous utiliserons l'utilisateur `root` pour le serveur distant.
+- Dans ce tutoriel, nous utiliserons l'utilisateur `root` pour le serveur distant (VPS).
 
 ## Configuration côté serveur (VPS distant)
 
