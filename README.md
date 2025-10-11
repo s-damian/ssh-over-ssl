@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Configuration côté serveur](#configuration-côté-serveur-vps-distant)
 - [Configuration côté client](#configuration-côté-client-machine-locale)
+- [Proxy SOCKS](#proxy-socks)
 - [Article in English 🇬🇧](#article-in-english-)
 
 ## Introduction
@@ -229,8 +230,38 @@ ssh -p 2200 root@localhost
 PS : Si sur votre serveur, l'authentification par mot de passe est désactivée, utilisez votre clé privée SSH (avec l'option `-i`) :
 
 ```bash
-ssh -p 2200 -i /YOUR_PATH/.ssh/id_rsa_root root@localhost
+ssh -p 2200 -i /YOUR_PATH/.ssh/id_rsa_YOUR_FILE root@localhost
 ```
+
+
+
+## Proxy SOCKS (tunnel SSH dynamique)
+
+> Utiliser SSH pour créer un proxy SOCKS5 via le tunnel SSL
+
+Une fois le tunnel SSL/TLS établi, vous pouvez créer un **proxy SOCKS5** pour router l'ensemble de votre trafic Internet (navigation web, applications) à travers votre serveur distant (VPS).
+
+- Étape 1 : Lancer stunnel dans un terminal (si pas déjà fait).
+
+- Étape 2 : Créer le tunnel SSH avec proxy SOCKS :
+
+Dans un second terminal :
+
+```bash
+ssh -D 1040 -C -q -p 2200 -i /YOUR_PATH/.ssh/id_rsa_YOUR_FILE root@localhost
+```
+
+Explication des options :
+- `-D 1040` : Crée un proxy SOCKS5 local sur le port 1040.
+- `-C` : Active la compression des données SSH (pour économiser de la bande passante).
+- `-q` : Mode silencieux (supprime les messages locaux).
+- `-p 2200` : Se connecte au tunnel stunnel local.
+- `-i ...` : Spécifie la clé privée SSH à utiliser.
+- `root@localhost` : Utilisateur et hôte (le tunnel écoute sur localhost).
+
+Important : Ces 2 terminals doivent rester ouvert tant que vous utilisez le proxy.
+
+- Étape 3 : Configurer votre navigateur (Firefox par exemple).
 
 
 
