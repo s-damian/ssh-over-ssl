@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [Configuration côté serveur](#configuration-côté-serveur-serveur-distant)
 - [Configuration côté client](#configuration-côté-client-machine-locale)
-- [Article in English 🇬🇧](#article-in-english)
+- [Article in English 🇬🇧](#article-in-english-)
 
 ## Introduction
 
@@ -232,8 +232,8 @@ ssh -p 2200 -i /YOUR_PATH/.ssh/id_rsa_root root@localhost
 
 ## Article in English 🇬🇧
 
-> 📝 You can also read the detailed article on my blog (article in English 🇬🇧):
+> 📝 You can also read the detailed article on my blog:
 
-> 📝 Vous pouvez également lire l'article détaillé sur mon blog (article en anglais 🇬🇧) :
+> 📝 Vous pouvez également lire l'article détaillé sur mon blog :
 
 [Tunnel SSH Connections Over SSL Using Stunnel](https://www.damian-freelance.com/blog/tunnelling-ssh-over-ssl-on-debian)
