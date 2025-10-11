@@ -3,7 +3,7 @@
 > Connexions SSH via le port 443 (SSL) à l'aide de Stunnel
 
 - [Introduction](#introduction)
-- [Configuration côté serveur](#configuration-côté-serveur-serveur-distant)
+- [Configuration côté serveur](#configuration-côté-serveur-vps-distant)
 - [Configuration côté client](#configuration-côté-client-machine-locale)
 - [Article in English 🇬🇧](#article-in-english-)
 
@@ -54,7 +54,11 @@ Certains réseaux (pays, entreprises, universités, Wi-Fi publics) bloquent les 
 
 Ce tutoriel couvre l'installation et la configuration complète de stunnel4, côté serveur et côté client, sur des systèmes Linux Debian / Ubuntu.
 
-## Configuration côté serveur (serveur distant)
+Notes :
+- Le serveur distant sera aussi surnommé `VPS`.
+- Dans ce tutoriel, nous utiliserons l'utilisateur `root` pour le serveur distant.
+
+## Configuration côté serveur (VPS distant)
 
 ### 1. Installer stunnel
 
