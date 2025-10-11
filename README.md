@@ -232,8 +232,6 @@ ssh -p 2200 -i /YOUR_PATH/.ssh/id_rsa_root root@localhost
 
 ## Article in English 🇬🇧
 
-> 📝 You can also read the detailed article on my blog:
-
-> 📝 Vous pouvez également lire l'article détaillé sur mon blog :
+> 📝 You can read the English version of the article on my blog:
 
 [Tunnel SSH Connections Over SSL Using Stunnel](https://www.damian-freelance.com/blog/tunnelling-ssh-over-ssl-on-debian)
