@@ -1,10 +1,14 @@
 # Encapsuler SSH dans SSL/TLS avec stunnel sur Debian / Ubuntu
 
-> Accéder à SSH via le port 443 avec stunnel4
+> Connexions SSH via le port 443 (SSL) à l'aide de Stunnel
 
 - [Introduction](#introduction)
 - [Configuration côté serveur](#configuration-côté-serveur-serveur-distant)
 - [Configuration côté client](#configuration-côté-client-machine-locale)
+
+> 📝 Vous pouvez également lire l'article détaillé sur mon blog :
+> 🇬🇧 Article en anglais :
+[Tunnel SSH Connections Over SSL Using Stunnel](https://www.damian-freelance.com/blog/tunnelling-ssh-over-ssl-on-debian)
 
 ## Introduction
 
