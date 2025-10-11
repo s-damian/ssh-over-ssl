@@ -107,10 +107,8 @@ connect = 127.0.0.1:22
 ```
 
 Explication :
-
-`accept = 443` : stunnel écoute sur le port 443 (HTTPS).
-
-`connect = 127.0.0.1:22` : dès qu'une connexion SSL est reçue, elle est redirigée vers le port SSH local (22).
+- `accept = 443` : stunnel écoute sur le port 443 (HTTPS).
+- `connect = 127.0.0.1:22` : dès qu'une connexion SSL est reçue, elle est redirigée vers le port SSH local (22).
 
 
 ### 4. Activer stunnel
