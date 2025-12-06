@@ -51,9 +51,9 @@ Certains réseaux (pays, entreprises, universités, Wi-Fi publics) bloquent les 
 
 
 
-# Tunnel SSH via SSL avec stunnel — Tutoriel pour Linux
+# Tunnel SSH via SSL avec stunnel - Tutoriel pour Linux
 
-Ce tutoriel couvre l'installation et la configuration complète de stunnel4, côté serveur et côté client, sur des systèmes Linux Debian / Ubuntu.
+Ce tutoriel couvre l'installation et la configuration complète de stunnel4, côté serveur et côté client, sur des systèmes **Linux** **Debian** / **Ubuntu**.
 
 Notes :
 - Le serveur distant sera aussi surnommé `VPS`.
